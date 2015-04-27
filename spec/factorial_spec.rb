@@ -1,8 +1,8 @@
 def factorial(number)
 	return number*factorial(number - 1) if number == 4
-	return number*factorial(2) if number == 3
-	return number*factorial(1) if number == 2
-	return number*factorial(0) if number == 1
+	return number*factorial(number - 1) if number == 3
+	return number*factorial(number - 1) if number == 2
+	return number*factorial(number - 1) if number == 1
 	return 1 if number == 0
 end
 
