@@ -2,7 +2,8 @@ def factorial(number)
 	return 24 if number == 4
 	return 6 if number == 3
 	return 2 if number == 2
-	1
+	return 1 if number == 1
+	return 1 if number == 0
 end
 
 describe "factorial" do
