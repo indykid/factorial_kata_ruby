@@ -1,9 +1,9 @@
 def factorial(number)
-	return number*factorial(number - 1) if number == 4
-	return number*factorial(number - 1) if number == 3
-	return number*factorial(number - 1) if number == 2
-	return number*factorial(number - 1) if number == 1
 	return 1 if number == 0
+	return number*factorial(number - 1)
+	return number*factorial(number - 1)
+	return number*factorial(number - 1)
+	return number*factorial(number - 1)
 end
 
 describe "factorial" do
