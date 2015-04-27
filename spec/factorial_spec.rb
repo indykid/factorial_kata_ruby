@@ -23,4 +23,8 @@ describe "factorial" do
 	it "given 4 returns 24" do
 		expect(factorial(4)).to eq(24)
 	end
+
+	it "given 15 returns" do
+		expect(factorial(15)).to eq(1307674368000)
+	end
 end
